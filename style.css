@@ -53,6 +53,12 @@ body {
     width: auto;
 }
 
+.logo-text {
+    color: #1e90ff;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
 .job-title {
     text-align: right;
 }

@@ -306,7 +306,7 @@ class JobApplicationBot {
                 </div>
                 <div class="message-content">
                                             <p>Üdvözlöm! Petra vagyok, a profession.hu toborzási asszisztense.</p>
-                    <p>Köszönöm érdeklődését a <strong>Senior Frontend Developer</strong> pozíció iránt. Szívesen végigvezetem a jelentkezési folyamaton, amely mindössze néhány percet vesz igénybe.</p>
+                                            <p>Köszönöm érdeklődését a <strong>Senior Frontend Developer</strong> pozíció iránt az XYZ Technology Kft.-nél. Szívesen végigvezetem a jelentkezési folyamaton, amely mindössze néhány percet vesz igénybe.</p>
                     <p>Kezdjük az alapadatokkal. Kérem, adja meg a teljes nevét:</p>
                 </div>
             </div>
