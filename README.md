@@ -1,5 +1,8 @@
 # Profession.hu - Párbeszéd alapú jelentkezési prototípus
 
+[![GitHub](https://img.shields.io/badge/GitHub-barrajanos%2Fparbeszed--jelentkezes-blue?style=flat-square&logo=github)](https://github.com/barrajanos/parbeszed-jelentkezes)
+[![Demo](https://img.shields.io/badge/Demo-GitHub%20Pages-green?style=flat-square&logo=github)](https://barrajanos.github.io/parbeszed-jelentkezes/)
+
 ## Áttekintés
 
 Ez a prototípus demonstrálja, hogyan működhetne a profession.hu párbeszéd alapú állásjelentkezési rendszere. A felhasználókat egy AI asszisztens (Petra) vezeti végig a jelentkezési folyamaton, amely egy modern chatbot interfészen keresztül történik.
@@ -59,6 +62,24 @@ A jelentkezés 7 lépésben történik:
 - **Email**: RFC compliant email validáció
 - **Telefon**: International telefon formátum
 - **Motiváció**: Minimum 10 karakter
+
+## 🚀 Gyors kezdés
+
+### Online demo
+[**► Próbáld ki itt: barrajanos.github.io/parbeszed-jelentkezes**](https://barrajanos.github.io/parbeszed-jelentkezes/)
+
+### Helyi futtatás
+
+```bash
+# Repository klónozása
+git clone https://github.com/barrajanos/parbeszed-jelentkezes.git
+
+# Könyvtár megnyitása
+cd parbeszed-jelentkezes
+
+# Megnyitás böngészőben
+open index.html
+```
 
 ## Használat
 
