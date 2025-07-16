@@ -54,8 +54,8 @@ body {
 }
 
 .logo-text {
-    color: #1e90ff;
-    font-size: 1.1em;
+    color: #333;
+    font-size: 1em;
     font-weight: 500;
 }
 
@@ -279,27 +279,7 @@ body {
     box-shadow: 0 4px 15px rgba(30, 144, 255, 0.3);
 }
 
-.progress-bar {
-    height: 4px;
-    background: rgba(30, 144, 255, 0.1);
-    position: relative;
-}
 
-.progress-fill {
-    height: 100%;
-    background: linear-gradient(90deg, #1e90ff 0%, #00d4aa 100%);
-    width: 0%;
-    transition: width 0.5s ease;
-}
-
-.progress-text {
-    text-align: center;
-    padding: 10px;
-    background: #f8f9fb;
-    color: #666;
-    font-size: 0.85em;
-    border-top: 1px solid rgba(30, 144, 255, 0.1);
-}
 
 .typing-indicator {
     display: flex;

@@ -6,8 +6,6 @@ class JobApplicationBot {
         this.messageInput = document.getElementById('messageInput');
         this.sendButton = document.getElementById('sendButton');
         this.quickActions = document.getElementById('quickActions');
-        this.progressFill = document.getElementById('progressFill');
-        this.progressText = document.getElementById('progressText');
         
         this.steps = [
             {
@@ -219,10 +217,7 @@ class JobApplicationBot {
     }
     
     updateProgress() {
-        const totalSteps = this.steps.length + 1; // +1 for name step
-        const progress = (this.currentStep / totalSteps) * 100;
-        this.progressFill.style.width = `${progress}%`;
-        this.progressText.textContent = `${this.currentStep}. lépés a ${totalSteps}-ből`;
+        // Progress bar removed
     }
     
     showSummary() {
@@ -278,8 +273,6 @@ class JobApplicationBot {
             `, 2000);
             
             setTimeout(() => {
-                this.progressFill.style.width = '100%';
-                this.progressText.textContent = 'Jelentkezés sikeresen elküldve';
                 
                 // Restart button
                 const restartBtn = document.createElement('button');
@@ -306,14 +299,13 @@ class JobApplicationBot {
                 </div>
                 <div class="message-content">
                                             <p>Üdvözlöm! Petra vagyok, a profession.hu toborzási asszisztense.</p>
-                                            <p>Köszönöm érdeklődését a <strong>Senior Frontend Developer</strong> pozíció iránt az XYZ Technology Kft.-nél. Szívesen végigvezetem a jelentkezési folyamaton, amely mindössze néhány percet vesz igénybe.</p>
+                                            <p>Köszönöm az érdeklődését az XYZ Technology Kft-nél a Senior Frontend fejlesztő munkakörrel kapcsolatban. Szívesen végigvezetem a jelentkezési folyamaton, amely mindössze néhány percet vesz igénybe.</p>
                     <p>Kezdjük az alapadatokkal. Kérem, adja meg a teljes nevét:</p>
                 </div>
             </div>
         `;
         
-        this.progressFill.style.width = '0%';
-        this.progressText.textContent = '1. lépés a 7-ből';
+
         this.clearQuickActions();
         this.messageInput.focus();
     }
