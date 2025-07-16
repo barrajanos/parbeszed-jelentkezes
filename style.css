@@ -92,13 +92,28 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 15px rgba(30, 144, 255, 0.3);
-    overflow: hidden;
+    overflow: visible;
+    position: relative;
+}
+
+.online-badge {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    width: 14px;
+    height: 14px;
+    background: #00d4aa;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
 }
 
 .avatar-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 .assistant-info h3 {
